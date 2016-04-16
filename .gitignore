@@ -1,0 +1,8 @@
+/composer.phar
+
+/vendor/
+/composer.lock
+/.project
+/.settings
+/.buildpath
+/tests/data/gcscreds.config.php
