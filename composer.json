@@ -17,7 +17,13 @@
 	"autoload": {
 		"psr-4": {
 			"JaegerApp\\": "src"
-		}
+		},
+		"files": [
+			"src/Validate/Rules/Gcs/Connect.php",
+			"src/Validate/Rules/Gcs/Buckets/Exists.php",
+			"src/Validate/Rules/Gcs/Buckets/Readable.php",
+			"src/Validate/Rules/Gcs/Buckets/Writable.php"
+		] 
 	},
 	"license": "MIT"
 }
